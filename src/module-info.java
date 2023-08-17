@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module MyCompiler {
+	requires antlr;
+}

@@ -1,0 +1,40 @@
+programa
+	declare numero n1, n2, a.
+	declare texto t1, t2.
+	
+	escrevaLn("Digite T1").
+	leia(t1).
+	escrevaLn(t1).
+	
+	t1 := "Hello World".
+	n1 := 1,0.
+	n2 := 10.
+	
+	escrevaLn("Digite n1").
+	leia(n1).
+	
+	se (n2 > (n1+100)) entao {
+		escrevaLn("n2 maior que n1")
+	} senao {
+		escrevaLn("n1 maior que n2")
+	}.
+	
+	escrevaLn("----While----").
+	enquanto ((n2-1) > 0) {
+		escreva(n2)
+		escreva(" ")
+		n2 := n2 - 1
+	}.
+	escrevaLn("\n----Do While----").
+	n2 := 20.
+	faca {
+		escreva(n2)
+		escreva(" ")
+		n2 := n2-2
+	} enquanto (n2 > 0).
+	
+	escrevaLn("\n----For----").
+	para (n2 := 0; n2 < 5; n2 := n2+1) faca {
+		escreva("A-")
+	}.
+fimprog.
